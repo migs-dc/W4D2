@@ -1,13 +1,12 @@
 
 
-class Piece(color, board, pos)
-  def initialize
-    @color = color
-    @board = board
-    @pos = pos
-  end
+class Piece
 
-  
+  attr_reader :color
+
+  def initialize
+    @color = :-
+  end
 
 end
 
